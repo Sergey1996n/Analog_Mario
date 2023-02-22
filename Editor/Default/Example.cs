@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Example : MonoBehaviour
 {
+	/*ывафыв*/
     //    private void OnDrawGizmos()
     //    {
     //        if (RunTestsFromMenu.isError)
@@ -47,7 +48,8 @@ public class Example : MonoBehaviour
     //        {
     //            AssetDatabase.DeleteAsset(pathPrefab);
     //        }
-    //    }
+    //    }ываыва
+    /*ываячс*/
 }
 
 
@@ -112,6 +114,9 @@ public class RunTestsFromMenu : ScriptableObject, ICallbacks
             WarningEditorGUI.Text = "Запустите \"Unity leaning\" для проверки тестов";
             return;
         }
+
+        Debug.Log(results.AssertCount);
+
         if (mode == TestMode.PlayMode && results.FailCount == 0)
         {
             //pathProgram = Path.Combine(Directory.GetParent(Application.persistentDataPath).FullName, "Unity learning");

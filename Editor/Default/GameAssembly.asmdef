@@ -2,12 +2,14 @@
     "name": "GameAssembly",
     "rootNamespace": "",
     "references": [
-        "GUID:0acc523941302664db1f4e527237feb3"
+        "UnityEditor.TestRunner"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
+    "overrideReferences": true,
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],

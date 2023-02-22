@@ -7,7 +7,6 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections;
 using System.Collections.Generic;
-using static UnityEditor.Progress;
 
 public class Lesson1EditMode
 {
